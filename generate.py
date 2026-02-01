@@ -91,7 +91,7 @@ def generate_markdown(resume: dict, resume_type: str = "default") -> str:
         lines.append("")
 
     # Projects (if targeting technical roles)
-    if resume.get('projects') and resume_type in ['default', 'devops', 'technical_pm']:
+    if resume.get('projects') and resume_type in ['default', 'devops', 'technical_pm', 'account_manager']:
         lines.append("## PROJECTS")
         lines.append("")
         for project in resume['projects']:
@@ -167,7 +167,7 @@ def generate_plain_text(resume: dict, resume_type: str = "default") -> str:
     lines.append("")
 
     # Projects
-    if resume.get('projects') and resume_type in ['default', 'devops', 'technical_pm']:
+    if resume.get('projects') and resume_type in ['default', 'devops', 'technical_pm', 'account_manager']:
         lines.append("PROJECTS")
         lines.append("-" * 20)
         for project in resume['projects']:
@@ -308,7 +308,7 @@ def generate_html(resume: dict, resume_type: str = "default") -> str:
         html += f'    <div class="skills-group"><strong>{skill_group["name"]}:</strong> {keywords}</div>\n'
 
     # Projects
-    if resume.get('projects') and resume_type in ['default', 'devops', 'technical_pm']:
+    if resume.get('projects') and resume_type in ['default', 'devops', 'technical_pm', 'account_manager']:
         html += "\n    <h2>Projects</h2>\n"
         for project in resume['projects']:
             year = project.get('startDate', '')
@@ -359,7 +359,7 @@ def generate_html(resume: dict, resume_type: str = "default") -> str:
 def main():
     parser = argparse.ArgumentParser(description="Generate tailored resumes from JSON")
     parser.add_argument("--type", "-t",
-                       choices=["default", "devops", "project_manager", "technical_pm"],
+                       choices=["default", "devops", "project_manager", "technical_pm", "account_manager"],
                        default="default",
                        help="Resume type/focus")
     parser.add_argument("--format", "-f",
