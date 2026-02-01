@@ -1,0 +1,200 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Dustin Williams",
+    "label": "Technical Project Manager",
+    "email": "dustinwilliamstm@gmail.com",
+    "phone": "731-343-2815",
+    "url": "https://github.com/cactuscables",
+    "location": {
+      "city": "Austin",
+      "region": "TX",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "dustinwilliams",
+        "url": "https://linkedin.com/in/dustinwilliams"
+      },
+      {
+        "network": "GitHub",
+        "username": "cactuscables",
+        "url": "https://github.com/cactuscables"
+      }
+    ],
+    "summary": {
+      "default": "Technical Project Manager with 10+ years leading cross-functional and distributed teams, managing complex technical operations, and delivering process improvements that drive measurable results. Proven track record overseeing $1M+ budgets, coordinating multi-site logistics, and implementing data-driven solutions remotely. Combines hands-on technical expertise with strong async communication and self-directed execution.",
+      "devops": "Technical professional transitioning to DevOps with hands-on experience building automation tools, Python scripting, and iOS development. Background in technical operations management with 10+ years leading distributed teams and implementing data-driven solutions. Combines practical coding skills with strong project management and self-directed remote work experience.",
+      "project_manager": "Technical Project Manager with 10+ years leading cross-functional and distributed teams across multiple industries. Proven track record overseeing $1M+ budgets, coordinating multi-site logistics, and delivering process improvements that drive measurable results. Experienced managing remote teams with strong async communication and stakeholder management skills."
+    }
+  },
+  "skills": [
+    {
+      "name": "Project Management",
+      "keywords": [
+        "Agile methodologies",
+        "Project lifecycle management",
+        "Resource allocation",
+        "Risk assessment",
+        "Stakeholder management",
+        "Cross-functional team leadership",
+        "Process improvement",
+        "KPI tracking"
+      ]
+    },
+    {
+      "name": "Technical",
+      "keywords": [
+        "Python",
+        "SQL",
+        "Swift/SwiftUI",
+        "Selenium",
+        "Systems diagnostics",
+        "Electrical schematics",
+        "Technical documentation",
+        "Troubleshooting",
+        "Root cause analysis"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Jira",
+        "Tableau",
+        "Microsoft Office Suite",
+        "Google Workspace",
+        "Shopify",
+        "Adobe Suite",
+        "Zoom",
+        "Git/GitHub"
+      ]
+    },
+    {
+      "name": "Operations",
+      "keywords": [
+        "Budget management",
+        "Vendor negotiations",
+        "Inventory optimization",
+        "Supply chain coordination",
+        "Client relationship management"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Wolf Capture",
+      "description": "iOS app for appliance service technicians",
+      "highlights": [
+        "Built iOS app using Swift and Vision framework to extract model/serial numbers from appliance tags via OCR, eliminating manual transcription errors",
+        "Designed solution to real workflow problem: technicians no longer need hundreds of photos cluttering camera roll"
+      ],
+      "keywords": ["Swift", "SwiftUI", "Vision", "OCR", "iOS"],
+      "url": "https://github.com/cactuscables/WolfCapture",
+      "type": "application",
+      "startDate": "2024"
+    },
+    {
+      "name": "FlexJobs Scanner",
+      "description": "Automated job search tool",
+      "highlights": [
+        "Developed automated job search tool using Selenium and Python to scrape FlexJobs for remote positions matching configurable criteria",
+        "Implemented intelligent filtering: salary parsing from multiple formats, company stability scoring, Fortune 500 blocklist, duplicate detection",
+        "Built email notification system and SQLite database for tracking job search history"
+      ],
+      "keywords": ["Python", "Selenium", "SQLite", "Automation", "Web Scraping"],
+      "url": "https://github.com/cactuscables/flexjobs-scanner",
+      "type": "application",
+      "startDate": "2025"
+    }
+  ],
+  "work": [
+    {
+      "name": "Wolf Appliance Repair",
+      "position": "Technical Operations Lead",
+      "location": "Kingsland, TX",
+      "startDate": "2020-01",
+      "endDate": "",
+      "summary": "Lead technical service operations for high-end residential and commercial appliance systems",
+      "highlights": [
+        "Lead technical service operations for 150+ high-end residential and commercial appliance systems, coordinating scheduling, diagnostics, and resolution workflows",
+        "Reduced average customer resolution time by 40% through process standardization and implementation of diagnostic protocols",
+        "Manage end-to-end project lifecycle for complex repairs: scoping, parts procurement, technician coordination, quality assurance, and client communication",
+        "Created technical documentation and troubleshooting guides for sealed system diagnostics, electrical tracing, and control board repair",
+        "Optimized inventory management, reducing parts delays by 25% through improved forecasting and vendor negotiations",
+        "Operate autonomously across distributed service territory, self-managing daily priorities, client communication, and technical decisions with minimal oversight"
+      ]
+    },
+    {
+      "name": "Cactus Cables",
+      "position": "Founder & Technical Operations Manager",
+      "location": "Austin, TX",
+      "startDate": "2016-01",
+      "endDate": "",
+      "summary": "Built and scaled e-commerce operation for custom audio cables and electronics repair",
+      "highlights": [
+        "Built and scaled fully remote e-commerce operation across Shopify, eBay, and Amazon FBA, independently managing product development, fulfillment logistics, and customer support",
+        "Drove 20% increase in order volume through data analysis, process optimization, and platform-specific improvements",
+        "Managed digital marketing campaigns using Meta Ads Manager, tracking performance metrics and adjusting strategy based on ROI",
+        "Led product lifecycle management from concept through delivery, coordinating with manufacturers and logistics partners",
+        "Provided technical consultation and installation services for live production clients, translating requirements into solutions"
+      ]
+    },
+    {
+      "name": "Fool Hearted Productions LLC",
+      "position": "Touring Operations Manager",
+      "location": "Austin, TX",
+      "startDate": "2013-01",
+      "endDate": "2019-12",
+      "summary": "Managed logistics for national touring operations",
+      "highlights": [
+        "Managed logistics for 50-city national tour, coordinating travel, equipment, budgets, and cross-functional team of 5-7 staff",
+        "Oversaw $1M+ annual budget, tracking expenditures, forecasting costs, and optimizing spending to maximize profitability",
+        "Negotiated contracts with 120+ venues across 15 states, managing stakeholder relationships and securing favorable terms",
+        "Led technical production coordination, ensuring seamless execution of live events with multiple dependencies and tight timelines",
+        "Developed project schedules and contingency plans, managing risk across variable environments",
+        "Coordinated remote team operations across 50 cities, maintaining clear async communication and accountability while managing distributed staff"
+      ]
+    },
+    {
+      "name": "Barnes and Noble College Booksellers",
+      "position": "Textbook Manager & Faculty Liaison",
+      "location": "Martin, TN",
+      "startDate": "2010-01",
+      "endDate": "2013-12",
+      "summary": "Led procurement operations and inventory management",
+      "highlights": [
+        "Led procurement operations for 700+ course sections, negotiating 10% cost reduction while maintaining supplier relationships",
+        "Implemented inventory tracking improvements, reducing waste and improving forecasting accuracy",
+        "Created reporting workflows using SQL queries and Tableau dashboards to visualize sales trends and inventory metrics",
+        "Supervised and trained team members, establishing processes for consistent execution during peak periods"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Tennessee at Martin",
+      "area": "Natural Resource Management",
+      "studyType": "Bachelor of Science",
+      "endDate": "2010"
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "lastModified": "2025-01-31",
+    "targetRoles": {
+      "technical_pm": {
+        "emphasize": ["projects", "technical_skills", "team_leadership"],
+        "summary_key": "default"
+      },
+      "devops": {
+        "emphasize": ["projects", "technical_skills", "automation"],
+        "summary_key": "devops"
+      },
+      "project_manager": {
+        "emphasize": ["team_leadership", "budget_management", "stakeholder_management"],
+        "summary_key": "project_manager"
+      }
+    }
+  }
+}
