@@ -51,6 +51,7 @@
         "SQL",
         "Swift/SwiftUI",
         "Selenium",
+        "Google Apps Script",
         "Systems diagnostics",
         "Electrical schematics",
         "Technical documentation",
@@ -105,6 +106,18 @@
       ],
       "keywords": ["Python", "Selenium", "SQLite", "Automation", "Web Scraping"],
       "url": "https://github.com/cactuscables/flexjobs-scanner",
+      "type": "application",
+      "startDate": "2025"
+    },
+    {
+      "name": "Truck Inventory Tracker",
+      "description": "Parts inventory automation for field service",
+      "highlights": [
+        "Built automated inventory system using Google Apps Script to track parts usage across service trucks",
+        "Implemented event-driven automation with visual alerts and usage logging for reorder tracking"
+      ],
+      "keywords": ["Google Apps Script", "JavaScript", "Google Sheets", "Automation"],
+      "url": "https://github.com/cactuscables/truck-inventory-tracker",
       "type": "application",
       "startDate": "2025"
     }
