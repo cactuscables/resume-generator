@@ -85,6 +85,19 @@
   ],
   "projects": [
     {
+      "name": "Tech Portal",
+      "description": "Progressive Web App for appliance repair workflow",
+      "highlights": [
+        "Built offline-capable PWA used daily in the field for parts lookup, workorder notes, and Google Sheets integration — replacing manual data entry across disconnected tools",
+        "Implemented in-browser OCR using Tesseract.js for model/serial tag scanning with auto-rotation and smart label detection",
+        "Designed brand auto-detection from model number prefixes, generating deep-links to Marcone, Sears Parts Direct, Reliable Parts, and manufacturer sites"
+      ],
+      "keywords": ["JavaScript", "PWA", "Tesseract.js", "OCR", "Google Apps Script"],
+      "url": "https://cactuscables.github.io/Field-Buddy/",
+      "type": "application",
+      "startDate": "2025"
+    },
+    {
       "name": "Wolf Capture",
       "description": "iOS app for appliance service technicians",
       "highlights": [
@@ -133,9 +146,8 @@
       "highlights": [
         "Lead technical service operations for 150+ high-end residential and commercial appliance systems, coordinating scheduling, diagnostics, and resolution workflows",
         "Reduced average customer resolution time by 40% through process standardization and implementation of diagnostic protocols",
-        "Manage end-to-end project lifecycle for complex repairs: scoping, parts procurement, technician coordination, quality assurance, and client communication",
-        "Created technical documentation and troubleshooting guides for sealed system diagnostics, electrical tracing, and control board repair",
-        "Optimized inventory management, reducing parts delays by 25% through improved forecasting and vendor negotiations",
+        "Manage end-to-end project lifecycle for complex repairs: technician coordination, quality assurance, and client communication",
+        "Optimized inventory management, reducing parts delays by 25% through improved forecasting",
         "Operate autonomously across distributed service territory, self-managing daily priorities, client communication, and technical decisions with minimal oversight"
       ]
     },
